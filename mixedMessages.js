@@ -10,7 +10,7 @@ let genres = ['Comedy', 'Drama', 'Thriller',
             'Reality', 'Western', 'Mystery',
             'Anime', 'Police Procedural','Game show' ];
 let styles = ['TV Show', 'Big Budget Movie', 'Indie Movie', 'Old movie', 
-            'New movie', 'Old show', 'New Show', ''];
+            'New movie', 'Old show', 'New Show'];
 
  // Creating function to randomly select from the lists of platforms, genres, and styles.
 function randomShow () {
