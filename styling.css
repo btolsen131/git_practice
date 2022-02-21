@@ -1,0 +1,286 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
+    margin-right:5px;
+    background: url("./Seahawks.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    height:100%;
+    
+
+}
+/* NAV Bar and links to other webpages */
+header{
+    position:0;
+}
+.NavBar {
+    display:flex;
+    background-color:rgb(192,181,171,80%);
+    color:white;
+    justify-content:flex-end;
+    flex-wrap: nowrap;
+    height:10%;
+    width:100%;
+    position:sticky;
+    margin-top:0;
+    z-index:100;
+}
+
+.NavBar h3{
+    margin-right:auto;
+    padding-left: 20px;
+    font-size: 2rem;
+    align-self: center;
+}
+.NavBar li,
+.NavBar li a {
+    list-style-type:none;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    align-self: flex-start;
+    padding: 10px;
+    margin-right:5px;
+}
+nav a:hover{
+    color: #bc986a;
+    background-color:white;
+    border-radius:2px;
+}
+/*body*/
+/* My picture and about me section */
+.portrait {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom:10%;
+    margin-top: 10%;
+}
+.portrait img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1 / span 2;
+    border-radius: 75%;
+    height: 500px;
+    width: auto;
+    justify-self:center;
+    border: 2px solid white;
+} 
+.portrait .name{
+    border-radius: 15px;
+    padding-left: 10px;
+    text-decoration: underline;
+    font-size: 4rem;
+    grid-area: 2/2/1/2;
+    background-color: rgb(101,157,189,75%);
+    color:white;
+    padding-bottom: 5px;
+    text-align: center;
+    align-self: center;
+    margin-right: 10px;
+    margin-left:5px;
+}
+.portrait section{
+    border-radius: 15px;
+    padding:10px;
+    height:fit-content;
+    text-align: justify;
+    font-size: 1rem;
+    justify-self: start;
+    background-color: rgb(101,157,189,75%);
+    color:white;
+    margin-right:10px;
+    margin-left:5px;
+}
+/* Projects overview */
+.projectsOverview{
+    background-color:rgb(101,157,189,75%);
+    color:white;
+    display:flex;
+    flex-direction: column;
+    border-radius: 50px;
+    margin-bottom: 10%;
+
+}
+.projectsOverview h4{
+    font-size: 2rem;
+    height:fit-content;
+    padding-left: 1%;
+}
+.projectsOverview a{
+    text-decoration:none;
+    color:white;
+}
+.projectsOverview a:hover{
+    color:#659DBD;
+    background-color: white;
+    text-decoration:underline;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.projectsOverview li {
+    font-size: 1rem;
+    align-self: start;
+}
+/*Skills Section*/
+.skills{
+    margin-bottom: 15%;
+    background-color:rgb(192,181,171,75%);
+    display:flex;
+    color:white;
+    border-radius: 15px;
+    width: 100%;
+    justify-content: center;
+}
+.skills h5{
+    padding-left: 1%;
+    font-size:2rem;
+    text-align: center;
+    align-self: center;
+}
+.skills ul{
+    display: inline-flex;
+}
+.skills li{
+    display: inline-block;
+    font-size: 4rem;
+    justify-self: center;
+    align-self: center;
+    list-style-type: none;
+}
+.skills li span{
+    font-size:2rem;
+}
+
+/*Contact page*/
+
+.contact{
+    margin-top: 10%;
+    border-radius: 15px;
+    display: flex;
+    background-color: rgb(101,157,189,75%);
+    justify-content: center;
+    color:white;
+    width: fit-content;
+    align-content: center;
+}
+
+.contact li,
+.contact li a{
+    font-size: 1.25rem;
+    list-style-type: none;
+}
+
+/* Resume page*/
+.resumePageContactInfo{
+    background-color: rgb(101,157,189,75%);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-radius: 15px;
+    margin-top:10%;
+    margin-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.resumePageContactInfo h1{
+    font-size: 3rem;
+}
+
+.objective{
+    background-color: rgb(101,157,189,75%);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.objective h2{
+    font-size: 1.75rem;
+    margin-bottom: 1.5%;
+    text-decoration: underline;
+}
+.experience{
+    background-color: rgb(101,157,189,75%);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.experience h2{
+    font-size: 1.75rem;
+    text-decoration: underline;
+}
+.experience .employer {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.experience .jobTitle,
+    .experience .timeOnJob {
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
+.experience .timeOnJob{
+    text-align: end;
+}
+
+.school{
+    background-color: rgb(101,157,189,75%);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 15px;
+    margin-top:5%;
+    padding-left: 1%;
+    padding-right:1%;
+    margin-bottom: 10%;
+}
+.school h4{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+.school h5{
+    font-size:1.25rem;
+    margin-bottom: 0;;
+}
+
+#resumeDownload{
+    background-color:rgb(101,157,189,75%);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 1%;
+    color:white;
+    text-decoration: none;
+    cursor:pointer;
+    margin-top: 15%;
+    height: fit-content;
+}
+
+#resumeDownload:hover{
+    background-color:white;
+    color: rgb(101,157,189);
+    text-decoration: underline;
+    transition: background-color 1s, color 1s, text-decoration 1s;
+
+}
+.topResume{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
