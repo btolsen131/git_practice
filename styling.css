@@ -2,7 +2,7 @@ html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 5px;
     margin-right:5px;
-    background: url("./Seahawks.jpeg") no-repeat center center fixed;
+    background: url("./assets/pictures/Seahawks.jpeg") no-repeat center center fixed;
     background-size: cover;
     height:100%;
     
@@ -283,4 +283,54 @@ nav a:hover{
     flex-direction: row;
     align-content: center;
     justify-content: center;
+}
+
+/*Projects page*/
+#jammmingAbout, #NFLPassingAbout {
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 2%;
+
+}
+#jammmingAbout img, #NFLPassingAbout img{
+    width:50%;
+    height:auto;
+}
+
+#jammmingDiv, #NFLPassingDiv {
+    margin: 5% 5% 5% 5%;
+    background-color: #659DBD;
+    color: white;   
+    border-radius: 15px;
+    padding: 2%;
+
+}
+
+#jammming a, #NFLPassing a{
+    font-size: 2rem;
+    color: white;
+    text-decoration: underline;
+}
+
+#jammming a:hover, #NFLPassing a:hover { 
+    color:#659DBD;
+    background-color:white;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+#projectPageHead{
+    color:#659DBD;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding:0.25%;
+    align-items: center;
+    margin-top: 4%;
+}
+
+#projectPageHead h1{
+    font-size: 2rem;
 }
