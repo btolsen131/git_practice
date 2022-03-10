@@ -214,7 +214,7 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: fit-content;
+    width: auto;
     border-radius: 15px;
     margin-bottom: 5%;
     padding-left: 1%;
