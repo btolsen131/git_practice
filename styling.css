@@ -163,6 +163,7 @@ nav a:hover{
     color:white;
     width: fit-content;
     align-content: center;
+    padding: 1%;
 }
 
 .contact li,
@@ -269,6 +270,7 @@ nav a:hover{
     cursor:pointer;
     margin-top: 15%;
     height: fit-content;
+    margin-right: 2%;
 }
 
 #resumeDownload:hover{
