@@ -289,19 +289,19 @@ nav a:hover{
 }
 
 /*Projects page*/
-#jammmingAbout, #NFLPassingAbout {
+#projectAbout {
     display:flex;
     align-items: center;
     justify-content:space-around;
     margin-top: 2%;
 
 }
-#jammmingAbout img, #NFLPassingAbout img{
+#projectAbout img{
     width:50%;
     height:auto;
 }
 
-#jammmingDiv, #NFLPassingDiv {
+#projectDiv {
     margin: 5% 5% 5% 5%;
     background-color: #659DBD;
     color: white;   
@@ -310,13 +310,13 @@ nav a:hover{
 
 }
 
-#jammming a, #NFLPassing a{
+#projectTitle a {
     font-size: 2rem;
     color: white;
     text-decoration: underline;
 }
 
-#jammming a:hover, #NFLPassing a:hover { 
+#projectTitle a:hover { 
     color:#659DBD;
     background-color:white;
     border-radius: 20px;
