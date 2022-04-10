@@ -337,3 +337,14 @@ nav a:hover{
 #projectPageHead h1{
     font-size: 2rem;
 }
+
+.toDoPicsContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5%;
+}
+.toDoPics{
+    margin-top: 1%;
+    width:80%
+}
