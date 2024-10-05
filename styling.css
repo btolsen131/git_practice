@@ -23,6 +23,7 @@ header{
     position:sticky;
     margin-top:0;
     z-index:100;
+    border-radius: 15px;
 }
 
 .NavBar h3{
@@ -41,6 +42,7 @@ header{
     align-self: flex-start;
     padding: 10px;
     margin-right:5px;
+    border-radius: 15px;
 }
 nav a:hover{
     color: #bc986a;
@@ -238,18 +240,39 @@ nav a:hover{
     text-align: end;
 }
 
+.resumeBottom{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.resumeSkills{
+    background-color: rgb(101,157,189,75%);
+    color:white;
+    width: auto;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.resumeSkills h4{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
 .school{
     background-color: rgb(101,157,189,75%);
     color:white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: fit-content;
+    width: auto;
     border-radius: 15px;
-    margin-top:5%;
+    margin-bottom: 5%;
     padding-left: 1%;
-    padding-right:1%;
-    margin-bottom: 10%;
+    padding-right: 1%;
 }
 .school h4{
     font-size: 1.5rem;
